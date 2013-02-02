@@ -1,7 +1,7 @@
 # l4cron
 
 
-A simple Cron job solution fro laravel 4
+A simple Cron job solution for Laravel 4
 
 ## Installation
 **NB!** This package is not on composer yet. If you want to try it clone it into a workbench folder.
