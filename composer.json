@@ -1,0 +1,24 @@
+{
+    "name": "buhl/cron",
+    "description": "A simple cron job solution for laravel 4",
+    "authors": [
+        {
+            "name": "Morten Grunnet Buhl",
+            "email": "mgb@epdb.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "illuminate/events": "4.0.x",
+        "illuminate/console": "4.0.x",
+        "illuminate/config": "4.0.x",
+        "mtdowling/cron-expression": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Buhl\\Cron": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
