@@ -8,6 +8,7 @@ class CronServiceProvider extends ServiceProvider {
   public function boot()
   {
     $this->package('buhl/cron');
+    $this->registerRoutes();
   }
 
   public function provides()
@@ -17,9 +18,6 @@ class CronServiceProvider extends ServiceProvider {
 
   public function register()
   {
-    $this->package('buhl/cron');
-
-    $this->registerRoutes();
     $this->registerCronCommands();
   }
 

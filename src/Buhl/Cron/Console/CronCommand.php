@@ -1,6 +1,6 @@
 <?php namespace Buhl\Cron\Console;
 
-use BuhlCron\Cron;
+use Buhl\Cron\Cron;
 use Illuminate\Console\Command;
 use Illuminate\Config\Repository;
 use Illuminate\Events\Dispatcher;
